@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.App{
+  position: relative;
+  width: 100vw;
+  width: 1000px;
+  max-width: 1000px;
+  min-height: 1200px;
+  margin: 40px;
+
+  display: grid;  
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.Left_side{
+  position: relative;
+  background: rgb(30, 30, 30);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+
+.Right_side{
+  position: relative;
+  background: whitesmoke;
+  padding: 40px;
+}

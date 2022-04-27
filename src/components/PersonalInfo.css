@@ -1,0 +1,12 @@
+.Identity , .Skills>h3 , .Hobbies>h3{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.CvPhoto{
+    border-radius: 50%;
+}   
+
+.Skills , .Hobbies{
+    margin-top: 30px;
+}
